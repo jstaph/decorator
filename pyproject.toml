@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "brainmodulyzer"
+version = "0.1.0"
+description = "Brain connectivity visualizer"
+authors = ["Sugeerth Murugesan <sugeerth@gmail.com>", "Jason Staph <jstaph@staph.us>"]
+license = "Proprietary"
+
+[tool.poetry.dependencies]
+python = ">3.8"
+pyqt5 = "^5.15.0"
+"Qt.py" = "^1.2.6"
+numpy = "^1.19.1"
+networkx = "^2.4"
+nibabel = "^3.1.1"
+pydot = "^1.4.1"
+community = "^1.0.0-beta.1"
+pygraphviz = "^1.6"
+vtk = "^9.0.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
